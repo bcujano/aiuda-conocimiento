@@ -1,0 +1,35 @@
+# Plantilla para CADA repo consumidor: .github/workflows/enviar-propuestas.yml
+# Cuando se une a main un archivo nuevo en .aiuda-propuestas/, abre un PR en aiuda-conocimiento.
+# Requiere el secreto CONOCIMIENTO_TOKEN: token de acceso fino con Contents y Pull requests (escritura)
+# SOLO sobre bcujano/aiuda-conocimiento. No verificado en la documentación oficial que una Action pueda
+# abrir PR en otro repo con ese token; probar con un repo antes de instalar en todos.
+name: Enviar propuestas de conocimiento
+on:
+  push:
+    branches: [main]
+    paths: ['.aiuda-propuestas/**']
+jobs:
+  enviar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 2}
+      - uses: actions/checkout@v4
+        with:
+          repository: bcujano/aiuda-conocimiento
+          token: ${{ secrets.CONOCIMIENTO_TOKEN }}
+          path: .centro
+      - name: Copiar propuestas nuevas
+        run: |
+          mkdir -p .centro/propuestas
+          git diff --name-only --diff-filter=A HEAD~1 HEAD -- .aiuda-propuestas | while read f; do
+            cp "$f" ".centro/propuestas/${GITHUB_REPOSITORY#*/}-$(basename "$f")"
+          done
+      - uses: peter-evans/create-pull-request@v6
+        with:
+          path: .centro
+          token: ${{ secrets.CONOCIMIENTO_TOKEN }}
+          branch: propuesta/${{ github.event.repository.name }}-${{ github.run_id }}
+          title: "Propuesta de conocimiento desde ${{ github.event.repository.name }}"
+          body: "Propuesta enviada automáticamente. Revisar evidencia y redacción antes de unir."
+          commit-message: "Propuesta desde ${{ github.event.repository.name }}"
