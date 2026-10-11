@@ -16,16 +16,13 @@ El conocimiento compartido vive en **un solo repo** (el centro de conocimiento).
 - Descubriste un repo, proveedor, norma o competidor relevante.
 - Una tarea se repite y merece su propio skill.
 
-## Cómo proponer (desde cualquier repo de sistema)
-Una sesión en la nube solo puede escribir en los repos que tiene adjuntos, así que **no intentes abrir un PR en el centro**. Haz esto:
-1. Crea `.aiuda-propuestas/AAAA-MM-DD-tema.md` en el repo donde trabajas, dentro del mismo PR de tu tarea, con:
-   - **Qué aprendí** (una o dos frases).
-   - **Evidencia** (ruta de archivo, enlace con fecha de lectura, resultado de una prueba).
-   - **Dónde aplica** (qué repos o skills).
-   - **Cambio sugerido** (texto exacto para el skill).
-2. Cuando el dueño une ese PR, una acción automática (`consumo/enviar-propuestas.yml`) abre un PR en el centro con ese archivo en `propuestas/`.
-3. Si la acción aún no está instalada, entrega el texto al dueño en tu reporte.
-Sin secretos, teléfonos ni datos de clientes en la propuesta.
+## Cómo proponer
+Crea `propuestas/AAAA-MM-DD-tema.md` en el repo del centro (en una rama, con PR) con:
+1. **Qué aprendí** (una o dos frases).
+2. **Evidencia** (ruta de archivo, enlace con fecha de lectura, resultado de una prueba).
+3. **Dónde aplica** (qué repos o skills).
+4. **Cambio sugerido** (texto exacto para el skill).
+Si no puedes abrir el PR, entrega el texto al dueño en tu reporte.
 
 ## Quién revisa
 El auditor revisa la evidencia y la redacción. El dueño aprueba y une el PR. Al unir, se actualiza la fecha «Revisado» del skill y el `CHANGELOG.md`.
