@@ -1,0 +1,25 @@
+# Plantilla de acción programada para CADA repo consumidor: .github/workflows/sincronizar-conocimiento.yml
+# Requiere el secreto CONOCIMIENTO_TOKEN (token de solo lectura al repo aiuda-conocimiento).
+name: Sincronizar conocimiento Aiuda
+on:
+  schedule: [{cron: '0 13 * * 1'}]   # lunes
+  workflow_dispatch:
+permissions: {contents: write, pull-requests: write}
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: bcujano/aiuda-conocimiento
+          token: ${{ secrets.CONOCIMIENTO_TOKEN }}
+          path: .conocimiento
+      - run: bash .conocimiento/consumo/sincronizar.sh "$GITHUB_WORKSPACE"
+      - run: rm -rf .conocimiento
+      - uses: peter-evans/create-pull-request@v6
+        with:
+          branch: conocimiento/sincronizar
+          title: "Sincronizar conocimiento Aiuda"
+          body: "Actualiza los skills aiuda-* y el bloque de reglas desde aiuda-conocimiento."
+          commit-message: "Sincronizar conocimiento Aiuda"

@@ -1,0 +1,4 @@
+{
+  "_nota": "Opcional. Los skills de .claude/skills/ funcionan sin configuración adicional. No poner claves aquí.",
+  "permissions": { "deny": ["Read(./.env*)", "Read(./**/secrets/**)"] }
+}

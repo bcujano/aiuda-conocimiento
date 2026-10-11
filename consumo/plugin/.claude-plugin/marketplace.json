@@ -1,0 +1,1 @@
+{ "name": "aiuda", "owner": { "name": "Aiuda" }, "plugins": [ { "name": "aiuda-conocimiento", "source": "./", "description": "Skills y reglas de Aiuda" } ] }
