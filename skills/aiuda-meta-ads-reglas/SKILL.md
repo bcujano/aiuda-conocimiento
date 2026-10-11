@@ -53,15 +53,15 @@ Perfil nombrado → **el dolor** (≈ 60 % del peso visual, concreto, en términ
 Detectados al escribirlo; mientras Byron no decida, **aplica lo que dice esta tabla**. Están en `knowledge/decisiones/contenido-higgsfield.md` con más detalle.
 | Tema | Este repo | Skill existente | Aplica |
 |---|---|---|---|
-| Texto sobre la foto | Los anuncios del Taller ponen titular encima de la foto, en una zona despejada con sombra suave | `aiuda-diseno` regla 2: ningún texto sobre la foto (Byron 2026-10-04) | La de `aiuda-diseno`; usar foto sola + texto sobre fondo plano o al lado. Pendiente que Byron aclare si los estáticos de evento quedan exentos |
+| Texto sobre la foto | Los anuncios del Taller ponen titular encima de la foto, en una zona despejada con sombra suave | `aiuda-diseno` regla 2: ningún texto sobre la foto (Byron 2026-10-04) | **Resuelto 2026-10-11: mandan las reglas de diseño.** Foto sola + texto sobre fondo plano o al lado, también en el Taller |
 | Descripción del anuncio | ~30 caracteres | `aiuda-contenido-y-voz`: ≤ 25 | 25 |
 | Titular | 27 a 40 | ≤ 40 | 40 como máximo, 27 si cabe |
 | «Más información» como CTA en frío | Admite «Más información» y «Registrarse» | «Nunca “Más info”» | «Registrarse» o el CTA del destino; nunca «Más info» |
 | «Desde $» | El copy del Taller usa «Desde $65» | Por defecto sin «desde $» | Sin «desde» salvo precio mínimo en ficha |
 | Presupuesto inicial | ~$15 a $20 por día para 6 anuncios (evento) | $5 a $10 por día por conjunto, 3 a 5 anuncios | Depende del caso; el segundo es para inmobiliario con mensajes |
-| Zona segura 9:16 | 250/340 px; 15 %/20 %; 14 %/35 % + 6 % lados | 270 px arriba y abajo (14 %) | Arriba 14 % (270 px), **abajo 35 %** si va en Reels (oficial) |
+| Zona segura 9:16 | 250/340 px; 15 %/20 %; 14 %/35 % + 6 % lados | 270 px arriba y abajo (14 %) | **Resuelto:** 14 % arriba (270 px), 35 % abajo (672 px), 6 % lados (65 px); verificar en vista previa de Ads Manager (página oficial no legible) |
 | Mayúsculas | CUPOS LIMITADOS, AIUDA, GRATIS apilado | Sin frases en mayúsculas | Las etiquetas cortas se permiten; no se redacta en mayúsculas |
-| Cara de IA | Soul del dueño; en el despacho también del socio | `aiuda-diseno` regla 7 y `aiuda-contenido-y-voz`: único personaje real | Solo la persona real autorizada |
+| Cara de IA | Soul del dueño; en el despacho también del socio | `aiuda-diseno` regla 7 y `aiuda-contenido-y-voz`: único personaje real | **Resuelto 2026-10-11:** se permite la imagen generada con Soul; la regla de «persona real» ya no aplica. Se mantiene la autorización escrita de la persona entrenada (el cliente aprobó) |
 | Precio vigente | Escala de precios siempre visible con la fase resaltada | Precio grande = efectivo/transferencia (Byron 2026-10-11) | Aplicar la decisión de Byron a la escala |
 
 ## No verificado

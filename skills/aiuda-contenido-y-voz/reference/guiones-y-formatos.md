@@ -45,7 +45,7 @@ Reglas: máx. **10 palabras**; con número, lugar o plazo; el texto en pantalla 
 
 ## 4. Historia (9:16)
 - Una idea por historia. Título ≤ 6 palabras; dato o precio visible si la ficha lo tiene.
-- Texto fuera de los 270 px de arriba y de abajo (la fuente del motor dice 250; manda 270, 14 % de 1920).
+- Texto fuera de los 270 px de arriba, los 672 px de abajo y los 65 px laterales (14 %, 35 % y 6 % de 1080×1920; la fuente del motor dice 250).
 - Pensada para generar mensajes: el pie invita a responder («Responde CASA y te envío la ficha»).
 - Tono más cercano e inmediato que el feed («Nuevo», «Hoy», «Última disponible» solo si es verdad según la ficha).
 

@@ -8,7 +8,7 @@ Fuente de verdad de las reglas: `crm-321/src/lib/vectorial/conocimiento.ts` (`RE
 3. **Titular corto.** ≤ 9 palabras (máx. 70 caracteres), empieza por el beneficio o un verbo; sin signos de exclamación seguidos ni frases en mayúsculas.
 4. **Contraste.** ≥ 4,5:1 texto/fondo (el sistema lo calcula y avisa). Máx. 2 tipografías y 3 colores: fondo, texto y acento.
 5. **Sin texto sobre foto.** La foto va sola en su zona; el texto sobre fondo plano (decisión de marca, 2026-10-04).
-6. **Zona segura.** Historias y reels (1080×1920): sin texto en el 14 % superior e inferior (270 px). Feed: margen de 76 px a cada lado.
+6. **Zona segura.** Historias y reels (1080×1920): sin texto en el 14 % superior (270 px), el 35 % inferior (672 px) ni el 6 % lateral (65 px). Feed: margen de 76 px a cada lado.
 7. **Botón.** Uno solo, con verbo y destino. En este sistema el contacto lo inicia la persona (WhatsApp primero).
 8. **Números reales.** Precios, fechas, cupos y días salen de la base; la cifra de impacto lleva su fuente visible; sin fuente no se genera.
 9. **Precio.** El publicado es el que paga con tarjeta; el efectivo o la transferencia se presenta como descuento. Nunca la palabra «recargo». (Ver choque con landings en `SKILL.md`.)
@@ -23,7 +23,7 @@ Fuente de verdad de las reglas: `crm-321/src/lib/vectorial/conocimiento.ts` (`RE
 |---|---|---|---|---|
 | cuadrado | 1080×1080 | publicación de feed | 64 / 64 | 76 |
 | vertical | 1080×1350 | feed 4:5 (el que más espacio ocupa) | 72 / 72 | 76 |
-| historia | 1080×1920 | Stories y Reels 9:16 | 270 / 270 | 76 |
+| historia | 1080×1920 | Stories y Reels 9:16 | 270 / 672 | 76 (mín. 65) |
 | ebook | 1080×1620 | portada 2:3 (ebook, plataformas de venta) | 80 / 90 | 96 |
 
 Meta exige JPG/PNG: el anuncio vectorial se exporta a PNG en servidor. Ventaja: 3 formatos × N titulares al instante, texto nítido, marca consistente.

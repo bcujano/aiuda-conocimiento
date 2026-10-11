@@ -29,7 +29,7 @@ Detalle por tema en `reference/`:
 4. **Ningún número lo escribe un modelo de lenguaje.** Precios, fechas, cupos, días y cifras salen de la base con su origen. Cifra sin fuente: no se muestra ni se genera.
 5. **Español con tildes y ñ**, tuteo, sin jerga técnica: «tu negocio», no «tu funnel». Se escribe para quien lee, no para quien construyó el sistema.
 6. **Replicable:** nombres, colores, logos y precios de una empresa viven en la base o en variables de entorno, nunca en el código. Cambiar de empresa = cambiar datos.
-7. **Rostro humano real** del facilitador o asesor; nunca ilustrarlo ni sustituirlo por stock o por un vector.
+7. **Rostro humano** del facilitador o asesor; nunca sustituirlo por stock ni por un vector. **Actualizado 2026-10-11:** la regla de «persona real» se retira; vale una imagen generada (Soul) de una persona que haya autorizado por escrito.
 8. **Anti-slop:** un solo acento, sin degradados agresivos, sin emojis como viñetas, sin orbes de «IA», sin muros de logos.
 9. **Móvil primero:** probar a 375 px y a 1440 px mirando la captura; más del 60 % del tráfico pagado es móvil. Márgenes laterales de 16–20 px y cero desborde horizontal.
 10. **Movimiento con permiso:** respetar `prefers-reduced-motion`; las píldoras flotantes de landing se animan lento (≥ 6 s).
@@ -45,7 +45,7 @@ Detalle por tema en `reference/`:
 - Los 10 estilos son diseños distintos (otra estructura, tipografía y experiencia), no el mismo diseño con otros colores.
 
 ## Piezas gráficas (resumen; detalle en `piezas-graficas.md`)
-- Formatos: cuadrado 1080×1080, vertical 1080×1350 (feed 4:5), historia 1080×1920 (sin texto en el 14 % superior ni inferior = 270 px), portada de ebook 1080×1620 (2:3). Meta acepta JPG/PNG.
+- Formatos: cuadrado 1080×1080, vertical 1080×1350 (feed 4:5), historia 1080×1920 (sin texto en el 14 % superior (270 px), el 35 % inferior (672 px) ni el 6 % de cada lado (65 px)), portada de ebook 1080×1620 (2:3). Meta acepta JPG/PNG.
 - Tres niveles de jerarquía: 1) titular o cifra, 2) precio o dato de apoyo, 3) botón. Titular ≤ 9 palabras y ≤ 70 caracteres, que empiece por el beneficio o un verbo.
 - Máximo 2 tipografías y 3 colores (fondo, texto, acento) en la regla general; un solo botón con verbo y destino («Escríbenos por WhatsApp», nunca «Click aquí»).
 - Dibujo vectorial con texto convertido a trazados (se ve igual en cualquier programa); sin sombras ni efectos de imagen; exportar PNG 1080 px de ancho + SVG editable.
@@ -68,8 +68,8 @@ Detalle por tema en `reference/`:
 
 ## Choques entre fuentes (quién manda)
 1. **Precio en landings vs. en anuncios.** Landings (docs/14, Byron 2026-10-09): el efectivo/transferencia es el precio más grande. Anuncios vectoriales (`conocimiento.ts` regla «precio» y `anuncio-vectorial.ts`): el precio publicado es el de tarjeta y el efectivo va como nota/descuento. **Decidido por Byron (2026-10-11): el precio grande es el de efectivo o transferencia, también en anuncios.** El de tarjeta va más pequeño. Los archivos de código de anuncios (`conocimiento.ts`, `anuncio-vectorial.ts`) y `docs/15` deben alinearse a esto.
-2. **Texto sobre foto.** La regla «nunca letras sobre una foto» aplica a landings y piezas estáticas. En reels/video el texto en pantalla es parte del formato (`reel.md`), siempre dentro de la zona segura y sin tapar rostros. Esta delimitación es una interpretación: ninguna fuente la escribe tal cual.
-3. **Zona segura de historias:** 270 px (14 %, `tipos.ts`) frente a 250 px (`historia.md`). Usar 270 (más estricta).
+2. **Texto sobre foto: RESUELTO 2026-10-11, mandan las reglas de diseño** (también en anuncios de eventos como el Taller). La regla «nunca letras sobre una foto» aplica a landings y piezas estáticas. En reels/video el texto en pantalla es parte del formato (`reel.md`), siempre dentro de la zona segura y sin tapar rostros. Esta delimitación es una interpretación: ninguna fuente la escribe tal cual.
+3. **Zona segura de historias y reels: RESUELTO 2026-10-11.** Usar 14 % arriba (270 px), 35 % abajo (672 px) y 6 % a los lados (65 px), la cifra más repetida en guías de terceros (marzo 2026, Stories y Reels unificados). La página oficial de Meta existe (Centro de ayuda 980593475366490) pero su texto no se pudo leer: verificar en la vista previa de Ads Manager. El código del generador (`tipos.ts`, 270 px abajo) debe subir a 672 px.
 4. **Titulares:** ≤ 9 palabras / 70 caracteres en la pieza; 6–12 palabras en el hero de landing; 40 caracteres en el campo titular del anuncio en Meta; hooks ≤ 10 palabras. Son medios distintos: aplicar el límite del medio donde va el texto.
 5. **Mayúsculas y tipografías:** la regla general dice «sin frases en mayúsculas» y «máx. 2 tipografías», pero los estilos Alta conversión y Kraft usan mayúsculas tipográficas (`mayus: true`) y Kraft combina Anton, Courier y Caveat. Se entiende que la regla es de redacción y que el estilo puede imponer mayúsculas o una tercera familia de apoyo; no está escrito explícitamente.
 

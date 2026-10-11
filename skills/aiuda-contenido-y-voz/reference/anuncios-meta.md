@@ -16,7 +16,7 @@ dolor · resultado · prueba (solo datos reales de la ficha) · curiosidad · co
 2. Persona a cámara (UGC / «fundador»): el que más convierte cuando alcanzan los créditos.
 3. Carrusel 4:5: recorrido de la propiedad o del proceso.
 4. Estático 4:5: antes/después, problema/solución o tarjeta de preguntas frecuentes. Evitar muros de logos y tarjetas de reseñas.
-- Piezas gráficas: 1080×1080, 1080×1350, 1080×1920; zona segura de 14 % arriba y abajo en Stories/Reels. Ver skill `aiuda-diseno`.
+- Piezas gráficas: 1080×1080, 1080×1350, 1080×1920; zona segura de 14 % arriba, 35 % abajo y 6 % a los lados en Stories/Reels. Ver skill `aiuda-diseno`.
 
 ## 4. Copy
 - Texto principal: lo importante en los primeros **125 caracteres**. Titular: máx. **40**. Descripción: máx. **25**.
