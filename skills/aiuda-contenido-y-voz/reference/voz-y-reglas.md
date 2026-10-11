@@ -4,7 +4,7 @@ Fuente principal: `postpro-321/motor/skills/voz-y-reglas.md` y `hooks.md` (las u
 
 ## 1. Voz (marca inmobiliaria 321 INMO)
 - Persona: el fundador y asesor inmobiliario y constructor en Quito. Directo, seguro, cercano; español de Ecuador; trato de «tú».
-- Único personaje en video: el fundador (avatar y modelo de imagen propios). Nunca otros presentadores ni modelos.
+- Personajes en video: el fundador (avatar y modelo de imagen propios). La regla de «único personaje / nunca otros presentadores» fue retirada por el dueño el 2026-10-11; se permiten imágenes generadas de personas con autorización escrita de la persona.
 - Estilo: números > adjetivos; claro > ingenioso; voz activa; una idea por pieza y un solo pedido (CTA).
 - Lenguaje hablado ecuatoriano en los guiones a cámara, con frases cortas y sin leer datos de corrido.
 

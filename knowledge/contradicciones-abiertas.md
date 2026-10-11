@@ -17,3 +17,11 @@ Detectadas al escribir los skills. Mientras no se decidan, cada skill indica qu�
 12. **Zona segura 9:16:** cuatro valores distintos entre fuentes (250 px, 340 px, 14 %/35 %, 270 px). Se usa 270 px.
 13. **CTA frío:** el repo usa «Más información»/«Registrarse»; el skill de contenido lo prohíbe.
 14. **Precio en anuncios del Taller:** resalta la fase vigente; la decisión del 2026-10-11 pide el precio de efectivo o transferencia más grande.
+
+## Decisiones del dueño sobre las contradicciones de Higgsfield (2026-10-11)
+- Texto sobre la foto (10): RESUELTO, mandan las reglas de diseño, también en el Taller.
+- Persona real vs. IA (11): RESUELTO, la regla de «persona real» se retira; el cliente ya aprobó al socio. Se mantiene la autorización escrita de la persona entrenada.
+- Zona segura 9:16 (12): RESUELTO, 14 % arriba (270 px), 35 % abajo (672 px), 6 % lados (65 px). Fuentes: guías de terceros de 2026 coinciden; la página oficial de Meta (Centro de ayuda 980593475366490) no se pudo leer. Verificar en la vista previa de Ads Manager.
+- CTA y «Desde $» del Taller (13, y puntos 6, 7, 9, 10 de la nota): RESUELTO, el Taller (evento con formulario) y el contenido inmobiliario (WhatsApp) son productos distintos; cada uno con su regla, no se mezclan.
+- Precio (14): RESUELTO, se muestra en grande el precio de efectivo o transferencia de la fase vigente.
+- Rotación de clave de crm-321 y 2FA: el dueño las descarta.

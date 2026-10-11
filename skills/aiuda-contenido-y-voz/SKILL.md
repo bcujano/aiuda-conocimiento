@@ -37,7 +37,7 @@ Detalle en `reference/`:
 12. **Precio y tarjeta:** el efectivo o la transferencia se presenta como descuento o ahorro; nunca la palabra «recargo» ni el 6 % en un botón.
 
 ## Voz de marca (resumen)
-- Marca inmobiliaria 321 INMO: la voz de su fundador y asesor en Quito; directo, seguro, cercano, trato de «tú», español de Ecuador. Es el único personaje que aparece en video; nunca otros presentadores ni modelos.
+- Marca inmobiliaria 321 INMO: la voz de su fundador y asesor en Quito; directo, seguro, cercano, trato de «tú», español de Ecuador. Es el personaje principal que aparece en video; otros presentadores o modelos generados se permiten solo con autorización escrita de la persona (2026-10-11).
 - Academia (agente de WhatsApp): cálido, directo y breve (máx. 4 frases, sin listas largas salvo para mostrar opciones).
 - Para otra empresa (producto replicable): la voz, el nombre y el personaje son **datos de configuración**, no código. Usar esta estructura (directo, números, sin relleno) y cambiar la persona.
 - Prohibido: «¡Hola!», «Hola, soy…», intros, «No dudes en contactarnos», «Estamos aquí para ayudarte», adjetivos vacíos (espectacular, increíble, de ensueño, único), muletillas de IA (descubre, sumérgete, en el mundo de, eleva tu estilo de vida), exceso de rayas (—), emojis en cada línea, clickbait que la pieza no cumple.
@@ -47,7 +47,7 @@ Detalle en `reference/`:
 - **Hook:** ≤ 10 palabras, con número, lugar o plazo; el texto en pantalla complementa lo que se dice, no lo repite.
 - **UGC a cámara:** ~2,2 palabras por segundo como máximo → 8 s ≈ 17 palabras; 15 s ≈ 33. Primera frase = hook; luego qué está en juego, 1–3 ideas y un solo CTA; frases cortas, lenguaje hablado.
 - **Reel:** movimiento desde el primer cuadro; ningún tramo > 4 s sin cambio visual; cartel de ≤ 6 palabras dentro de la zona segura; sin logo, intro ni saludo; cerrar con lo que prometió el hook.
-- **Historia 9:16:** una idea; título ≤ 6 palabras; sin texto en los bordes superior e inferior (270 px).
+- **Historia 9:16:** una idea; título ≤ 6 palabras; sin texto en el 14 % superior (270 px), el 35 % inferior (672 px) ni los lados (65 px).
 - **Carrusel:** 5–8 láminas; portada con hook ≤ 6 palabras; título de lámina 3–7 palabras y texto ≤ 25 palabras; la última lámina es el CTA único.
 - **Caption:** línea 1 ≤ 125 caracteres (hook o dato); cuerpo de 3–5 líneas cortas; 3–5 hashtags (nicho, medio, amplio); cierre con sector + ciudad para búsqueda local.
 - **Anuncio Meta:** texto principal con lo importante en los primeros 125 caracteres; titular ≤ 40; descripción ≤ 25.
@@ -81,7 +81,7 @@ dolor · resultado · prueba (solo datos reales) · curiosidad · comparación �
 ## Choques entre fuentes (quién manda)
 1. **«Desde $».** `voz-y-reglas.md` lo permite si la ficha trae precio mínimo o rango; el plan de octubre lo excluye y un plan viejo de reels (`ADSBOOM-REEL-PRO-PLAN.md`) lo usa en su ejemplo («Desde $150,000»). Manda la regla del motor (solo con dato en la ficha); el ejemplo del plan está obsoleto. Ese plan además usa «Descubre…» e «Inversión segura», prohibidos por el revisor.
 2. **Texto sobre imagen en video.** El plan de reels superpone texto con ffmpeg; la regla de diseño prohíbe letras sobre foto en piezas estáticas. Para video rige `reel.md` (cartel ≤ 6 palabras en zona segura).
-3. **Zona segura de historia:** 250 px (`historia.md`) frente a 270 px (14 %, generador). Usar 270.
+3. **Zona segura de historia: RESUELTO 2026-10-11.** 14 % arriba (270 px), 35 % abajo (672 px), 6 % lados (65 px); ver `aiuda-diseno`.
 4. **Largo del titular:** 9 palabras (pieza), 6 (portada de carrusel), 10 (hook), 40 caracteres (campo de Meta), 80 caracteres (titular de hero de landing). Se aplica el límite del medio.
 5. **Saludo:** el revisor prohíbe «Hola» en el texto de marca, pero el mensaje precargado de WhatsApp del anuncio («Hola, quiero la ficha de …») es la voz de la persona que escribe, no de la marca; se permite.
 6. **Exclamaciones y mayúsculas:** la regla de pieza pide evitar signos de exclamación seguidos y frases en mayúsculas; el estilo «Alta conversión» pone el titular en mayúsculas tipográficas y el caso de referencia usa «¡QUIERO MI LUGAR GRATIS!». Se entiende que no se **redacta** en mayúsculas ni con exclamaciones dobles; la mayúscula visual la decide el estilo.

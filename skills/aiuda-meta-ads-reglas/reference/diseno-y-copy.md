@@ -17,7 +17,7 @@ Solo lo que NO está ya en `aiuda-diseno/reference/piezas-graficas.md` ni en `ai
 | 9:16 | meta_ads_reglas [E] | ~250 px (15 %) arriba y 20 % abajo; contenido en el 65 % central |
 | 9:16 | diseno_vectorial_reglas [E] | ~250 px arriba y ~340 px abajo (en 1080×1920) |
 | 9:16 Reels | Ads Guide oficial [V] | ~14 % arriba, **35 % abajo** y 6 % a los lados |
-Regla práctica: para Reels usar la oficial; para Stories, 14 % arriba y abajo (`aiuda-diseno`: 270 px).
+Regla práctica (2026-10-11): 14 % arriba, 35 % abajo y 6 % lados para Stories y Reels (`aiuda-diseno`).
 
 ## 3. Texto en la imagen
 - [E] Hook de 3 a 7 palabras; titular de 6 a 8 palabras en pieza vectorial; el resto va en el copy de Meta. Demasiado texto puede verse recargado y afectar el rendimiento [V, mejores prácticas de aspecto de Meta].
