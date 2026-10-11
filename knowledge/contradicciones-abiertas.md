@@ -10,3 +10,10 @@ Detectadas al escribir los skills. Mientras no se decidan, cada skill indica qu�
 7. **Tipografías y mayúsculas:** los estilos Alta conversión y Kraft rompen «máx. 2 tipografías / sin mayúsculas».
 8. **Sin verificar:** categoría HOUSING en anuncios de Ecuador, texto de la Ley de Corredores, ordenanza de valoración de Quito, registro de «no llamar».
 9. **Vacíos:** sin sistema de diseño común, sin política de privacidad/términos, sin política de retención de conversaciones, sin contratos con encargados, sin evaluación de impacto, sin CI en crm-321, aiuda-empresas, adsboom ni postpro-321.
+
+## Desde el repo de contenido Higgsfield (2026-10-11; detalle en `decisiones/contenido-higgsfield.md`)
+10. **Texto sobre la foto en anuncios del Taller:** el repo pone el titular encima de la foto; `aiuda-diseno` lo prohíbe. Pendiente de aclarar por el dueño.
+11. **Persona real vs. imagen de IA:** el repo genera al dueño con IA (Soul) y entrenó un Soul del socio de un cliente; los skills exigen persona real. La aprobación del socio sigue pendiente. Falta política escrita sobre imágenes de IA de personas reales.
+12. **Zona segura 9:16:** cuatro valores distintos entre fuentes (250 px, 340 px, 14 %/35 %, 270 px). Se usa 270 px.
+13. **CTA frío:** el repo usa «Más información»/«Registrarse»; el skill de contenido lo prohíbe.
+14. **Precio en anuncios del Taller:** resalta la fase vigente; la decisión del 2026-10-11 pide el precio de efectivo o transferencia más grande.
