@@ -4,7 +4,7 @@ Estados: pendiente → en curso → hecha → verificada (o bloqueada).
 
 | # | Repo | Tarea | Estado | Evidencia |
 |---|---|---|---|---|
-| 1 | crm-321 | Cargar el centro de conocimiento (sincronizar.sh) | pendiente | |
+| 1 | crm-321 | Orden 001: cargar el centro y alinear el agente, anuncios y seguimientos (ver orquesta/ordenes/001-crm-321.md) | pendiente | |
 | 2 | crm-321 | Verificar que el agente de WhatsApp se presenta como «asistente virtual automático» y ofrece persona; corregir si no | pendiente | |
 | 3 | crm-321 | Precio de efectivo en grande en anuncios; zona segura inferior de 672 px; tope de IA $50 en docs | pendiente | |
 | 4 | aiuda-empresas | Cargar el centro y verificar el aviso del agente | pendiente | |
