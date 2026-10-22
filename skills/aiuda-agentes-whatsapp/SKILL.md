@@ -54,20 +54,19 @@ al cliente. La norma exige informar el carácter automatizado, no una palabra co
 Qué se conserva de las reglas antiguas: tono natural y breve, saludo variado, sin frases de call center, espejo del
 tono del cliente, usted/tú según el producto. Lo que cambia es **solo** la ocultación.
 
-## 2. Nunca escribimos primero
+## 2. Quién escribe primero (decisión de Byron, 2026-10-22)
 
-- **Absoluta en EMP y Academy** (Byron, 2026-10-05; PLAN EMP regla 8): la persona abre la conversación (botón de
-  landing con referencia `ACA-<slug>-<id>` / `FAG-TRI`, o anuncio Click-to-WhatsApp). Link de pago y datos de
-  transferencia solo se entregan dentro de esa conversación. `/pagar/<id>` exige `ultimo_inbound_at`.
-- **VIP:** el agente responde y hace seguimiento solo a quien ya escribió, dentro de las 24 h (§3). Sin contacto en frío.
-- **CRM (321 INMO):** los seguimientos automáticos existen (Seguimiento V6; secuencias «Post Primer Contacto»,
-  «Reactivación»), pero salen **solo a leads que ya escribieron**, pasan por el supervisor y usan plantilla aprobada
-  fuera de ventana. Prospección en frío: solo con base legal documentada y el primer mensaje de LOPDP (§1.8).
-  **Decisión de Byron (2026-10-11): se permite** en 321 INMO porque existe una secuencia de seguimiento automático.
-  Condiciones que se mantienen: solo a quien ya escribió, plantilla aprobada fuera de ventana, pasa por el supervisor,
-  y quien dice que no o contrata no recibe más.
-- Llamadas de voz salientes: las inicia una persona del equipo desde la ficha, nunca se llaman solas (Academy,
-  `scripts/academy-voz/crear-agente.mjs`).
+- **Ideal:** que la persona escriba primero (anuncio Click-to-WhatsApp, botón de landing, formulario). Es lo más barato y lo más seguro.
+- **Permitido:** el contacto en frío saliente, porque el negocio lo necesita. Ya no es regla absoluta «nunca escribimos primero».
+- **Condiciones que no se negocian** (la plantilla y la baja las exige la plataforma; la base legal, la LOPDP):
+  1. Primer mensaje con **plantilla aprobada** por Meta; nada de texto libre fuera de ventana.
+  2. El mensaje dice quién escribe, de dónde salió el dato, para qué, y cómo darse de baja.
+  3. Quien dice NO, o contrata, sale de la lista y no recibe más. La baja funciona por WhatsApp y por enlace.
+  4. Tope diario por número y por sector, y pausa si sube la tasa de bloqueos o reportes.
+  5. Base legal anotada por cada lista (de dónde sale, con qué fundamento). **No verificado:** la política de WhatsApp Business pide consentimiento previo (opt-in) para mensajes iniciados por el negocio; un abogado debe confirmar el fundamento por lista y por país. Riesgo real: bloqueo del número.
+  6. Cada contacto queda registrado en la bitácora con fecha, plantilla y resultado.
+- Link de pago y datos de transferencia solo se entregan dentro de una conversación abierta por la persona.
+- Llamadas de voz salientes: las inicia una persona del equipo desde la ficha, nunca se llaman solas.
 
 ## 3. Ventana de 24 h y plantillas
 

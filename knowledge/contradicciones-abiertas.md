@@ -25,3 +25,6 @@ Detectadas al escribir los skills. Mientras no se decidan, cada skill indica qu�
 - CTA y «Desde $» del Taller (13, y puntos 6, 7, 9, 10 de la nota): RESUELTO, el Taller (evento con formulario) y el contenido inmobiliario (WhatsApp) son productos distintos; cada uno con su regla, no se mezclan.
 - Precio (14): RESUELTO, se muestra en grande el precio de efectivo o transferencia de la fase vigente.
 - Rotación de clave de crm-321 y 2FA: el dueño las descarta.
+
+## 2026-10-22
+- Contacto en frío: RESUELTO por el dueño. Ideal que la persona escriba primero, pero el contacto en frío está permitido con plantilla aprobada, baja fácil, tope y base legal anotada. Pendiente de verificar con abogado el opt-in exigido por WhatsApp y la LOPDP. Afecta a aiuda-empresas, laundry-vip y crm-321.
