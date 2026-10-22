@@ -9,4 +9,5 @@
 - Corre pruebas, tipos y compilación antes de decir que algo está listo; reporta lo que no pudiste verificar.
 - Si descubres una regla o técnica útil para otros sistemas, no la guardes solo aquí: déjala como propuesta (`aiuda-actualizar-conocimiento`).
 - Si un skill contradice lo que ves en el código, avisa en tu reporte; no lo ignores en silencio.
+- Si el usuario dice «ponte al día»: lee `orquesta/LEEME.md` del repo bcujano/aiuda-conocimiento (solo lectura) y sigue su protocolo: ejecuta la primera tarea pendiente de ESTE repo y deja tu reporte en `.aiuda/reportes/`.
 <!-- AIUDA-CONOCIMIENTO:FIN -->
